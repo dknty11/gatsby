@@ -4,8 +4,12 @@ node_js:
 cache:
   directories:
     - node_modules
+script:
+  - npm i
+  - ls -la
 deploy:
   provider: surge
+  skip_cleanup: true
   domain: tricky-anger.surge.sh
   on:
     branch: develop

@@ -7,5 +7,6 @@ cache:
 deploy:
   provider: surge
   skip_cleanup: true
+  project: ./public/
   on:
     branch: develop

@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -38,7 +39,11 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-          <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="//fonts.googleapis.com/css?family=Dancing+Script"
+          />
         </footer>
       </div>
     </>

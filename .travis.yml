@@ -4,9 +4,10 @@ node_js:
 cache:
   directories:
     - node_modules
+script:
+  - ls -la
 deploy:
   provider: surge
   skip_cleanup: true
-  project: ./public/
   on:
     branch: develop

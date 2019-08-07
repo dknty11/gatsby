@@ -44,6 +44,7 @@ const Layout = ({ children }) => {
             type="text/css"
             href="//fonts.googleapis.com/css?family=Dancing+Script"
           />
+          <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
         </footer>
       </div>
     </>

@@ -5,7 +5,7 @@ cache:
   directories:
     - node_modules
 script:
-  - npm build
+  - surge build
 deploy:
   provider: surge
   skip_cleanup: true

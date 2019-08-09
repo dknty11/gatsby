@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row"
 import styles from "../components/about-css-modules.module.css"
 
 const AboutPage = () => {
+  const ggAPI = process.env.GOOGLE_API
   return (
     <Layout>
       <SEO title="About us"></SEO>
@@ -14,7 +15,10 @@ const AboutPage = () => {
         <iframe
           title="our place"
           className={styles.iframe}
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:EkA1IMSQxrDhu51uZyBz4buRIDg1LCBUw6JuIFF1eSwgUXXhuq1uIDcsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFtIjASLgoUChIJWaBqqYQvdTERQlq1AjdTnLIQBSoUChIJN8BCWJsvdTERJloaLg0LRs8&key=AIzaSyA5pox_vGC9lCtCv9R80u80b8u7WGRdNro"
+          src={
+            "https://www.google.com/maps/embed/v1/place?q=place_id:EkA1IMSQxrDhu51uZyBz4buRIDg1LCBUw6JuIFF1eSwgUXXhuq1uIDcsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFtIjASLgoUChIJWaBqqYQvdTERQlq1AjdTnLIQBSoUChIJN8BCWJsvdTERJloaLg0LRs8&key=" +
+            ggAPI
+          }
           allowFullScreen
         ></iframe>
       </Row>

@@ -6,10 +6,12 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
-    <h1>Contact</h1>
-    <p>To be developed</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div style={{ marginLeft: `20px` }}>
+      <SEO title="Contact" />
+      <h1>Contact</h1>
+      <p>To be developed</p>
+      <Link to="/">Go back to the homepage</Link>
+    </div>
   </Layout>
 )
 

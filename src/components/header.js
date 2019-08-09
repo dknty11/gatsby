@@ -3,6 +3,7 @@ import React from "react"
 import NavLink from "./nav-link"
 
 import styles from "../components/header-css-modules.module.css"
+import Logo from "./logo"
 
 const Header = ({ siteTitle }) => (
   <header className={styles.navHeader}>
@@ -34,11 +35,7 @@ const Header = ({ siteTitle }) => (
         <NavLink to="/events/">Events</NavLink>
         <NavLink to="/pages/">Pages</NavLink>
         <NavLink to="/contact/">Contact</NavLink>
-        <img
-          className={styles.headerLogo}
-          alt=""
-          src="https://images-platform.99static.com/VSs2iyVAJgTX65iCcl3vQfiTpTI=/0x0:961x961/500x500/top/smart/99designs-contests-attachments/66/66189/attachment_66189600"
-        />
+        <Logo className={styles.headerLogo} />
       </p>
     </div>
   </header>

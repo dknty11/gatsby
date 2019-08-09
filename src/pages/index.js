@@ -1,55 +1,52 @@
 import React from "react"
-import { Link } from "gatsby"
+import ImageGallery from "react-image-gallery"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import styles from "../components/index-css-modules.module.css"
+
+const images = [
+  {
+    original: "http://themelooper.com/html/jz/images/banner-img-1.jpg",
+  },
+  {
+    original: "http://themelooper.com/html/jz/images/banner-img-2.jpg",
+  },
+  {
+    original: "http://themelooper.com/html/jz/images/banner-img-3.jpg",
+  },
+]
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img src="http://themelooper.com/html/jz/images/banner-img-1.jpg" alt=""/>
-    <div
-      style={{
-        width: `100%`,
-        // marginBottom: `1.45rem`,
-        position: `absolute`,
-        left: 0,
-        top: `250px`,
-      }}
-    >
-    <div
-      style={{
-        width: `765px`,
-        margin: `0 auto`,
-        color: `white`,
-      }}
-      >
-      <strong
-        style={{
-          font: `300 30px/30px 'Oswald', sans-serif`,
-          color: `white`,
-          textTransform: `uppercase`,
-          display: `block`,
-          textAlign: `center`
-        }}
-      >
-      Orignal taste • since 1982
-      </strong>
-      <span
-        style={{
-          font: `400 48px 'Dancing Script', cursive`,
-          display: `block`,
-          textAlign: `center`,
-          padding: `0 0 15px 0`,
-          color: `#c5a059`
-        }}
-      >Premiucccxcvm Quality</span>
+    <div className={styles.item}>
+      {/* <img
+        src="http://themelooper.com/html/jz/images/banner-img-1.jpg"
+        alt=""
+        className={styles.imgBackground}
+      /> */}
+      <ImageGallery
+        className={styles.imgBackground}
+        items={images}
+        showThumbnails={false}
+        showPlayButton={false}
+        showFullscreenButton={false}
+        lazyLoad={true}
+        autoPlay={true}
+        showBullets={true}
+      />
+      <div className={styles.caption}>
+        <div className={styles.holder}>
+          <strong className={styles.title}>Orignal taste • since 1994</strong>
+          <span className={styles.titleIndex}>Skywalker Quality</span>
+          <h1 className={styles.h1Index}>
+            Drunk, Fun Memories<b className={styles.bIndex}>&</b>Chill
+          </h1>
+          <strong className={styles.title2}>For Friends Saga</strong>
+        </div>
       </div>
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <div>
-      <Link to="/about/">About us</Link>
     </div>
   </Layout>
 )

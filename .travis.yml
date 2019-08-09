@@ -12,6 +12,5 @@ deploy:
   provider: surge
   project: ./public/
   skip_cleanup: true
-  domain: tricky-anger.surge.sh
   on:
     branch: develop

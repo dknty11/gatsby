@@ -1,41 +1,30 @@
 import React from "react"
 import { Link } from "gatsby"
-import ImageGallery from "react-image-gallery"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Row from "react-bootstrap/Row"
+import styles from "../components/about-css-modules.module.css"
 
-const images = [
-  {
-    original:
-      "http://74211.com/wallpaper/picture_big/natural_scenery_wallpaper_Victoria_falls_.jpg",
-  },
-  {
-    original:
-      "http://wallpaper21.com/wp-content/uploads/2017/01/natural-wallpaper-High-Resolution-Download8.jpg",
-  },
-  {
-    original:
-      "https://www.wallpapers13.com/wp-content/uploads/2016/01/Cool-and-Beautiful-Nature-desktop-wallpaper-image-2560X1600-1920x1080.jpg",
-  },
-]
-
-const AboutPage = () => (
-  <Layout>
-    <SEO title="About us"></SEO>
-    <h3>About us</h3>
-    <p>We're creating an environment for every one to enjoy the atmosphere.</p>
-    <ImageGallery
-      style={{ width: `100%` }}
-      items={images}
-      showThumbnails={false}
-      showPlayButton={false}
-      showFullscreenButton={false}
-      lazyLoad={true}
-      autoPlay={true}
-    />
-    <Link to="/">Home page</Link>
-  </Layout>
-)
+const AboutPage = () => {
+  return (
+    <Layout>
+      <SEO title="About us"></SEO>
+      <Row>
+        <iframe
+          title="our place"
+          className={styles.iframe}
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:EkA1IMSQxrDhu51uZyBz4buRIDg1LCBUw6JuIFF1eSwgUXXhuq1uIDcsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFtIjASLgoUChIJWaBqqYQvdTERQlq1AjdTnLIQBSoUChIJN8BCWJsvdTERJloaLg0LRs8&key=AIzaSyA5pox_vGC9lCtCv9R80u80b8u7WGRdNro"
+          allowFullScreen
+        ></iframe>
+      </Row>
+      <h3>About us</h3>
+      <p>
+        We're creating an environment for every one to enjoy the atmosphere.
+      </p>
+      <Link to="/">Home page</Link>
+    </Layout>
+  )
+}
 
 export default AboutPage

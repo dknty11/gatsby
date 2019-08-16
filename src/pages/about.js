@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Row from "react-bootstrap/Row"
-import styles from "../components/about-css-modules.module.css"
+import styles from "../components/pages-css-modules/about-css-modules.module.css"
 import Col from "react-bootstrap/Col"
 
 const AboutPage = () => {

@@ -1,10 +1,10 @@
 import React from "react"
 import ImageGallery from "react-image-gallery"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import styles from "../components/index-css-modules.module.css"
+import styles from "../components/pages-css-modules/index-css-modules.module.css"
 
 const images = [
   {
@@ -22,11 +22,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className={styles.item}>
-      {/* <img
-        src="http://themelooper.com/html/jz/images/banner-img-1.jpg"
-        alt=""
-        className={styles.imgBackground}
-      /> */}
       <ImageGallery
         className={styles.imgBackground}
         items={images}
@@ -34,7 +29,7 @@ const IndexPage = () => (
         showPlayButton={false}
         showFullscreenButton={false}
         lazyLoad={true}
-        autoPlay={true}
+        autoPlay={false}
         showBullets={true}
       />
       <div className={styles.caption}>

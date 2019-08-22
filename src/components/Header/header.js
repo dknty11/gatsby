@@ -27,17 +27,22 @@ const Header = ({ siteTitle }) => (
       type="text/css"
       href="//fonts.googleapis.com/css?family=Montserrat:300i,400"
     />
-    <SideDrawer isOpened={true} closed={false}></SideDrawer>
+    <SideDrawer
+      siteTitle={siteTitle}
+      className={styles.containerSideDrawer}
+      isOpened={true}
+      closed={false}
+    ></SideDrawer>
     <div className={styles.container}>
-      <p style={{ margin: 0 }}>
-        <NavLink to="/">{siteTitle}</NavLink>
-        <NavLink to="/about/">About Us</NavLink>
-        <NavLink to="/menu/">Menu</NavLink>
-        <NavLink to="/events/">Events</NavLink>
-        <NavLink to="/pages/">Pages</NavLink>
-        <NavLink to="/contact/">Contact</NavLink>
-        <Logo className={styles.headerLogo} />
-      </p>
+      {/* <p style={{ margin: 0 }}> */}
+      <NavLink to="/">{siteTitle}</NavLink>
+      <NavLink to="/about/">About Us</NavLink>
+      <NavLink to="/menu/">Menu</NavLink>
+      <NavLink to="/events/">Events</NavLink>
+      <NavLink to="/pages/">Pages</NavLink>
+      <NavLink to="/contact/">Contact</NavLink>
+      <Logo className={styles.headerLogo} />
+      {/* </p> */}
     </div>
   </header>
 )

@@ -34,7 +34,7 @@ const IndexPage = () => (
         showPlayButton={false}
         showFullscreenButton={false}
         lazyLoad={true}
-        autoPlay={true}
+        autoPlay={false}
         showBullets={true}
       />
       <div className={styles.caption}>

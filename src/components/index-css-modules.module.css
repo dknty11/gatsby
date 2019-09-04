@@ -69,3 +69,15 @@
   position: relative;
   z-index: -1;
 }
+
+@media (max-width: 499px) {
+  .caption {
+    top: 100px;
+  }
+  .holder {
+    width: 100%;
+  }
+  .title {
+    font: 300 15px/15px "Oswald", sans-serif;
+  }
+}

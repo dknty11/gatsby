@@ -9,7 +9,6 @@ const sideBar = props => {
   if (props.isOpened) {
     attachedClasses = ["SideDrawer", "Open"]
   }
-  console.log(props)
   return (
     <>
       <Backdrop show={props.isOpened} clicked={props.closed} />

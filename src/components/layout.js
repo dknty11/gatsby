@@ -27,6 +27,27 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <header>
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="//fonts.googleapis.com/css?family=Dancing+Script"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="//fonts.googleapis.com/css?family=Oswald"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="//fonts.googleapis.com/css?family=Montserrat:300i,400"
+        />
+      </header>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -35,7 +56,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main style={{ marginTop: "55px" }}>{children}</main>
       </div>
       <Footer />
     </>

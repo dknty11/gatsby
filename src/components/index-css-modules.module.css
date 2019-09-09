@@ -15,6 +15,7 @@
   position: absolute;
   left: 0;
   top: 176px;
+  text-align: center;
 }
 
 .holder {
@@ -28,13 +29,11 @@
   color: white;
   text-transform: uppercase;
   display: block;
-  text-align: center;
   padding: 10px 0;
 }
 
 .title2 {
   display: block;
-  text-align: center;
   font: 400 30px/30px "Dancing Script", cursive;
   color: white;
 }
@@ -42,7 +41,6 @@
 .titleIndex {
   font: 400 48px/40px "Dancing Script", cursive;
   display: block;
-  text-align: center;
   padding: 0 0 15px 0;
   color: #c5a059;
 }
@@ -54,7 +52,6 @@
   color: #fff;
   margin: 0 0 15px 0;
   display: block;
-  text-align: center;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -65,19 +62,47 @@
   color: #c5a059;
   font-weight: 700;
   display: block;
-  text-align: center;
   position: relative;
   z-index: -1;
 }
 
+.welcome {
+  background-color: black;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.welcome span {
+  display: block;
+  margin: 0 15px;
+  padding: 0.22rem 0;
+}
+
 @media (max-width: 499px) {
   .caption {
-    top: 100px;
+    top: 70px;
   }
   .holder {
     width: 100%;
   }
   .title {
     font: 300 15px/15px "Oswald", sans-serif;
+    padding: 0 0 5px 0;
+  }
+
+  .titleIndex {
+    font: 400 20px/20px "Dancing Script", cursive;
+    padding: 0 0 5px 0;
+  }
+  .h1Index {
+    font: 400 18px/18px "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .bIndex {
+    font-size: 48px;
+  }
+  .title2 {
+    font: 400 18px/18px "Dancing Script", cursive;
   }
 }

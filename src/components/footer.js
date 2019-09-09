@@ -10,27 +10,39 @@ const Footer = () => (
   <footer className={styles.footer}>
     <Container>
       <Row>
-        <Col md={4}>
+        <Col md={4} sm={4} xs={3}>
           <Link to="/">
             <img
-              style={{ height: `120px`, verticalAlign: `middle` }}
+              className={styles.image}
               src="https://images-platform.99static.com/VSs2iyVAJgTX65iCcl3vQfiTpTI=/0x0:961x961/500x500/top/smart/99designs-contests-attachments/66/66189/attachment_66189600"
               alt=""
             />
           </Link>
         </Col>
-        <Col md={8}>
-          <Row className={styles.row}>
-            <Col className={styles.title}>Call us:</Col>
-            <Col className={styles.content}>0905097868</Col>
+        <Col md={8} sm={8} xs={9}>
+          <Row>
+            <Col xs={4} className={styles.title}>
+              Call us:
+            </Col>
+            <Col xs={8} className={styles.content}>
+              0905097868
+            </Col>
           </Row>
           <Row>
-            <Col className={styles.title}>Address:</Col>
-            <Col className={styles.content}>Trung Son Dist, HCM City</Col>
+            <Col xs={4} className={styles.title}>
+              Address:
+            </Col>
+            <Col xs={8} className={styles.content}>
+              Trung Son Dist, HCM City
+            </Col>
           </Row>
           <Row>
-            <Col className={styles.title}>Email:</Col>
-            <Col className={styles.content}>qlun@gmail.com</Col>
+            <Col xs={4} className={styles.title}>
+              Email:
+            </Col>
+            <Col xs={8} className={styles.content}>
+              qlun@gmail.com
+            </Col>
           </Row>
         </Col>
       </Row>

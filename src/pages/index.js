@@ -47,6 +47,14 @@ const IndexPage = () => (
           <strong className={styles.title2}>For Friends Saga</strong>
         </div>
       </div>
+      <div className={styles.welcome}>
+        <span className={styles.titleIndex}>Welcome!</span>
+        <span className={styles.title2}>Making the best beer memories</span>
+        <img
+          src="http://themelooper.com/html/jz/images/welcome-img.png"
+          alt=""
+        />
+      </div>
     </div>
   </Layout>
 )

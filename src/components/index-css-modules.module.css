@@ -67,15 +67,18 @@
 }
 
 .welcome {
-  background-color: black;
+  position: relative;
   display: block;
+  background-color: black;
+}
+
+.welcomeContent {
+  margin: 0 15px;
   height: 100%;
-  margin: 0;
 }
 
 .welcome span {
   display: block;
-  margin: 0 15px;
   padding: 0.22rem 0;
 }
 

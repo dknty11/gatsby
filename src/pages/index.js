@@ -42,18 +42,26 @@ const IndexPage = () => (
           <strong className={styles.title}>Orignal taste • since 1994</strong>
           <span className={styles.titleIndex}>Skywalker Quality</span>
           <h1 className={styles.h1Index}>
-            Drunk, Fun Memories<b className={styles.bIndex}>&</b>Chill
+            Drunk, Fun Memories<b className={styles.bIndex}>&</b>Chill out
           </h1>
           <strong className={styles.title2}>For Friends Saga</strong>
         </div>
       </div>
       <div className={styles.welcome}>
-        <span className={styles.titleIndex}>Welcome!</span>
-        <span className={styles.title2}>Making the best beer memories</span>
-        <img
-          src="http://themelooper.com/html/jz/images/welcome-img.png"
-          alt=""
-        />
+        <div className={styles.welcomeContent}>
+          <span className={styles.titleIndex}>Welcome!</span>
+          <span className={styles.title2}>Making the best beer memories</span>
+          <p>
+            Beciegast nveriti vitaesaert asety kertya aset aplicaboserde nerorem
+            asipsumod itaut. Monsequntur magni dolores eonqui ratione voluptate
+            msequise kertyias nesciunt, neque porro quisquam seridolore
+            nuyfasas. Vertyu erauas aitaesa ertyasneo eniptaiades.
+          </p>
+          <img
+            src="http://themelooper.com/html/jz/images/welcome-img.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </Layout>

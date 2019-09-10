@@ -82,6 +82,10 @@
   padding: 0.22rem 0;
 }
 
+.welcome p {
+  color: whitesmoke;
+}
+
 @media (max-width: 499px) {
   .caption {
     top: 70px;

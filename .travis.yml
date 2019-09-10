@@ -6,7 +6,6 @@ cache:
     - node_modules
 script:
   - npm i
-  - ls -la
   - npm run build
 deploy:
   provider: surge

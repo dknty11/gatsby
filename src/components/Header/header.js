@@ -13,6 +13,7 @@ class Header extends Component {
   }
 
   sideDrawerCloseHandler = () => {
+    console.log("clicked close")
     this.setState({
       showSideDrawer: false,
     })

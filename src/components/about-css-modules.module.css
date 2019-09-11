@@ -5,7 +5,6 @@
 }
 
 .AboutContent {
-  border-top: 1px solid #c5a059;
   float: left;
   width: 100%;
   background: #000 url(http://themelooper.com/html/jz/images/footer-bg.jpg)
@@ -18,11 +17,16 @@
 
 .AboutContent p,
 h3 {
-  margin: 0 10px;
+  margin: 0 300px;
+}
+
+.AboutContent > span > p {
+  color: #c5a059;
 }
 
 .map {
   background-color: white;
+  text-align: center;
 }
 
 .iframe {

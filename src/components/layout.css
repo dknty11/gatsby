@@ -614,8 +614,16 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.MainContent {
+  margin-top: 79px;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  .MainContent {
+    margin-top: 55px;
   }
 }

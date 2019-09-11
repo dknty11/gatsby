@@ -1,24 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./navigation-item-css-module.modules.css"
+import styles from "./navigation-item-css-modules.module.css"
 
-const linkStyle = {
-  color: "white",
-  display: "inline-block",
-  margin: "0 0.5rem",
-  padding: "0.25rem",
-  textDecoration: "None",
-}
-
-const activeStyle = {
-  background: "#c5a059",
-  color: "black",
-}
+// const activeStyle = {
+//   backgroundColor: "#c5a059",
+// }
 
 const navigationItem = props => (
-  <li className="NavigationItem">
-    <Link to={props.linkTo} style={linkStyle} activeStyle={activeStyle}>
+  <li className={styles.NavigationItem}>
+    <Link to={props.linkTo} activeClassName={styles.activeClass}>
       {props.children}
     </Link>
   </li>

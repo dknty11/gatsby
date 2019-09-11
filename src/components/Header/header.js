@@ -13,7 +13,6 @@ class Header extends Component {
   }
 
   sideDrawerCloseHandler = () => {
-    console.log("clicked close")
     this.setState({
       showSideDrawer: false,
     })
@@ -26,7 +25,6 @@ class Header extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <header className={styles.navHeader}>
         <ToolBar clicked={this.sideDrawerOpenHandler}></ToolBar>

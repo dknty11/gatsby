@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main style={{ marginTop: "55px" }}>{children}</main>
+        <main className="MainContent">{children}</main>
       </div>
       <Footer />
     </>

@@ -1,8 +1,6 @@
-.Container {
-  /* background-color: black; */
+/* .Container {
   display: block;
-  /* position: relative; */
-}
+} */
 
 .AboutContent {
   float: left;
@@ -12,12 +10,11 @@
   padding: 10px 0;
   color: white;
   position: relative;
-  z-index: 1;
 }
 
 .AboutContent p,
 h3 {
-  margin: 0 300px;
+  margin: 0 auto;
 }
 
 .AboutContent > span > p {
@@ -35,4 +32,24 @@ h3 {
   width: 600px;
   height: 417px;
   border: none;
+}
+
+@media (max-width: 499px) {
+  .AboutContent {
+    height: 80px;
+  }
+  .AboutContent h3 {
+    margin: 0 10px;
+  }
+  .AboutContent p {
+    display: none;
+  }
+  .iframe {
+    height: 425px;
+    width: 95%;
+  }
+  .map {
+    text-align: left;
+    margin: 10px;
+  }
 }

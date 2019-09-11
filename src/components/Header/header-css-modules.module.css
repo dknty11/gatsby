@@ -1,6 +1,7 @@
 .navHeader {
   background: black;
   border-bottom: 1px solid #c5a059;
+  width: auto;
 }
 
 .container {

@@ -1,0 +1,13 @@
+.ContactContainer {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: #000 url(http://themelooper.com/html/jz/images/welcome-bg.jpg)
+    no-repeat center bottom;
+  color: white;
+  position: relative;
+}
+
+.ContactContent {
+  margin: 0 20px;
+}

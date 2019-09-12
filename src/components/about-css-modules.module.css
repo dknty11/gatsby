@@ -3,53 +3,52 @@
 } */
 
 .AboutContent {
-  float: left;
-  width: 100%;
-  background: #000 url(http://themelooper.com/html/jz/images/footer-bg.jpg)
-    no-repeat center bottom;
-  padding: 10px 0;
-  color: white;
-  position: relative;
+	float: left;
+	width: 100%;
+	background: #000 url(https://themelooper.com/html/jz/images/footer-bg.jpg) no-repeat center bottom;
+	padding: 10px 0;
+	color: white;
+	position: relative;
 }
 
 .AboutContent p,
 h3 {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 .AboutContent > span > p {
-  color: #c5a059;
+	color: #c5a059;
 }
 
 .map {
-  background-color: white;
-  text-align: center;
+	background-color: white;
+	text-align: center;
 }
 
 .iframe {
-  margin: 10px;
-  padding: 2px;
-  width: 600px;
-  height: 417px;
-  border: none;
+	margin: 10px;
+	padding: 2px;
+	width: 600px;
+	height: 417px;
+	border: none;
 }
 
 @media (max-width: 499px) {
-  .AboutContent {
-    height: 80px;
-  }
-  .AboutContent h3 {
-    margin: 0 10px;
-  }
-  .AboutContent p {
-    display: none;
-  }
-  .iframe {
-    height: 425px;
-    width: 95%;
-  }
-  .map {
-    text-align: left;
-    margin: 10px;
-  }
+	.AboutContent {
+		height: 80px;
+	}
+	.AboutContent h3 {
+		margin: 0 10px;
+	}
+	.AboutContent p {
+		display: none;
+	}
+	.iframe {
+		height: 425px;
+		width: 95%;
+	}
+	.map {
+		text-align: left;
+		margin: 10px;
+	}
 }

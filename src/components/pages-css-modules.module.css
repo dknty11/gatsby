@@ -1,19 +1,18 @@
 .PagesContainer {
-  float: left;
-  width: 100%;
-  height: 100%;
-  background: #000 url(http://themelooper.com/html/jz/images/welcome-bg.jpg)
-    no-repeat center bottom;
-  color: white;
-  position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #000 url(https://themelooper.com/html/jz/images/welcome-bg.jpg) no-repeat center bottom;
+	color: white;
+	position: relative;
 }
 
 .PagesContent {
-  margin: 0 15px;
+	margin: 0 15px;
 }
 
 .image {
-  margin: 5px;
-  height: 120px;
-  width: 180px;
+	margin: 5px;
+	height: 120px;
+	width: 180px;
 }

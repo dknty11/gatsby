@@ -17,7 +17,13 @@ const ContactPage = () => (
 					</FacebookProvider>
 				</div>
 				<div>
-					<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/about">
+					<form
+						name="contact"
+						method="POST"
+						netlify-honeypot="bot-field"
+						data-netlify="true"
+						action="/contact"
+					>
 						<input type="hidden" name="bot-field" />
 						<p>
 							<label>

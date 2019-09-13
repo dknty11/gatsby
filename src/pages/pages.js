@@ -30,8 +30,8 @@ const Pages = () => (
 				</div>
 				<div className={styles.image}>
 					<Litebox
-						small="https://img.21food.com/userimages/qingdaohanzhou/qingdaohanzhou$103110520.jpg"
-						large="https://img.21food.com/userimages/qingdaohanzhou/qingdaohanzhou$103110520.jpg"
+						small="https://snackbackpack.files.wordpress.com/2015/12/img_6660.jpg"
+						large="https://snackbackpack.files.wordpress.com/2015/12/img_6660.jpg"
 					/>
 					<span>dried squid</span>
 					<span>price: $10/Kg</span>
@@ -70,8 +70,8 @@ const Pages = () => (
 				</div>
 				<div className={styles.image}>
 					<Litebox
-						small="https://img.21food.com/userimages/qingdaohanzhou/qingdaohanzhou$103110520.jpg"
-						large="https://img.21food.com/userimages/qingdaohanzhou/qingdaohanzhou$103110520.jpg"
+						small="https://snackbackpack.files.wordpress.com/2015/12/img_6660.jpg"
+						large="https://snackbackpack.files.wordpress.com/2015/12/img_6660.jpg"
 					/>
 					<span>dried squid special</span>
 					<span>price: $10/Kg</span>

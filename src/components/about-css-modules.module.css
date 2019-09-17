@@ -1,31 +1,54 @@
-.user {
-  display: flex;
-  align-items: center;
-  margin: 0 auto 12px auto;
+/* .Container {
+  display: block;
+} */
+
+.AboutContent {
+	float: left;
+	width: 100%;
+	background: #000 url(https://themelooper.com/html/jz/images/footer-bg.jpg) no-repeat center bottom;
+	padding: 10px 0;
+	color: white;
+	position: relative;
 }
 
-.user:last-child {
-  margin-bottom: 0;
+.AboutContent p,
+h3 {
+	margin: 0 auto;
 }
 
-.avatar {
-  flex: 0 0 96px;
-  width: 96px;
-  height: 96px;
-  margin: 0;
+.AboutContent > span > p {
+	color: #c5a059;
 }
 
-.description {
-  flex: 1;
-  margin-left: 18px;
-  padding: 12px;
+.map {
+	background-color: white;
+	text-align: center;
 }
 
-.username {
-  margin: 0 0 12px 0;
-  padding: 0;
+.iframe {
+	margin: 10px;
+	padding: 2px;
+	width: 600px;
+	height: 417px;
+	border: none;
 }
 
-.excerpt {
-  margin: 0;
+@media (max-width: 499px) {
+	.AboutContent {
+		height: 80px;
+	}
+	.AboutContent h3 {
+		margin: 0 10px;
+	}
+	.AboutContent p {
+		display: none;
+	}
+	.iframe {
+		height: 425px;
+		width: 95%;
+	}
+	.map {
+		text-align: left;
+		margin: 10px;
+	}
 }

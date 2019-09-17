@@ -1,0 +1,115 @@
+.item {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.imgBackground {
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.caption {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 176px;
+  text-align: center;
+}
+
+.holder {
+  width: 765px;
+  margin: 0 auto;
+  color: white;
+}
+
+.title {
+  font: 300 30px/30px "Oswald", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 0;
+}
+
+.title2 {
+  display: block;
+  font: 400 30px/30px "Dancing Script", cursive;
+  color: white;
+}
+
+.titleIndex {
+  font: 400 48px/40px "Dancing Script", cursive;
+  display: block;
+  padding: 0 0 15px 0;
+  color: #c5a059;
+}
+
+.h1Index {
+  font-size: 46px;
+  line-height: 35px;
+  font: 400 46px/35px "Montserrat", sans-serif;
+  color: #fff;
+  margin: 0 0 15px 0;
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.bIndex {
+  font-size: 113px;
+  color: #c5a059;
+  font-weight: 700;
+  display: block;
+  position: relative;
+  z-index: -1;
+}
+
+.welcome {
+  position: relative;
+  display: block;
+  background-color: black;
+}
+
+.welcomeContent {
+  margin: 0 15px;
+  height: 100%;
+}
+
+.welcome span {
+  display: block;
+  padding: 0.22rem 0;
+}
+
+.welcome p {
+  color: whitesmoke;
+}
+
+@media (max-width: 499px) {
+  .caption {
+    top: 70px;
+  }
+  .holder {
+    width: 100%;
+  }
+  .title {
+    font: 300 15px/15px "Oswald", sans-serif;
+    padding: 0 0 5px 0;
+  }
+
+  .titleIndex {
+    font: 400 20px/20px "Dancing Script", cursive;
+    padding: 0 0 5px 0;
+  }
+  .h1Index {
+    font: 400 18px/18px "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .bIndex {
+    font-size: 48px;
+  }
+  .title2 {
+    font: 400 18px/18px "Dancing Script", cursive;
+  }
+}

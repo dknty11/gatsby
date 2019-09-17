@@ -1,0 +1,68 @@
+.ContactContainer {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #000 url(https://themelooper.com/html/jz/images/welcome-bg.jpg) no-repeat center bottom;
+	color: white;
+	position: relative;
+}
+
+.ContactContent {
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.FeedbackForm {
+	border: 1px solid whitesmoke;
+}
+
+@media (max-width: 499px) {
+	.FeedbackForm {
+		background: #000 url(https://themelooper.com/html/jz/images/footer-bg.jpg) no-repeat center bottom;
+		margin: 10px auto;
+		padding: 10px;
+		box-shadow: 0 2px 3px #c5a059;
+		border: 1px solid #c5a059;
+		box-sizing: border-box;
+		width: 90%;
+	}
+
+	.ContactContent h1,
+	h2 {
+		text-align: center;
+	}
+
+	.FeedbackForm input,
+	textarea {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	.FeedbackForm label {
+		font-weight: bold;
+		display: block;
+		margin-bottom: 8px;
+	}
+
+	#button {
+		background-color: transparent;
+		border: none;
+		color: white;
+		outline: none;
+		cursor: pointer;
+		font: inherit;
+		padding: 10px;
+		margin: 10px;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: 375px) {
+	.ContactContent {
+		width: 90%;
+		margin: 10px auto;
+		padding: 0;
+	}
+}

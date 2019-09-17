@@ -1,0 +1,20 @@
+.navHeader {
+  background: black;
+  border-bottom: 1px solid #c5a059;
+  width: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1.4rem 1.0875rem;
+  display: inline-block;
+}
+
+/* .headerLogo {
+  text-align: right;
+  height: 101px;
+  position: absolute;
+  z-index: 1;
+  top: -26px;
+} */

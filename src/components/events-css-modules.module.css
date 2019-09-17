@@ -1,0 +1,26 @@
+.EventsContainer {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #000 url(https://themelooper.com/html/jz/images/welcome-bg.jpg) no-repeat center bottom;
+	color: white;
+	position: relative;
+}
+
+.EventsContent {
+	margin: 10px;
+}
+
+.EventsContent h3 {
+	text-align: center;
+	font: 300 30px/30px "Open Sans", sans-serif;
+}
+
+.EventsContent span {
+	margin: 25px 0;
+	color: black;
+	display: inline-block;
+	height: 70px;
+	width: auto;
+	background-color: #c5a059;
+}

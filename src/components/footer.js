@@ -24,7 +24,7 @@ const Footer = () => (
 						<Col xs={4} className={styles.title}>
 							Call us:
 						</Col>
-						<Col xs={8} className={styles.content}>
+						<Col xs={8} className={styles.content} style={{ paddingLeft: 0 }}>
 							0905097868
 						</Col>
 					</Row>
@@ -32,15 +32,15 @@ const Footer = () => (
 						<Col xs={4} className={styles.title}>
 							Address:
 						</Col>
-						<Col xs={8} className={styles.content}>
-							Trung Son Dist, HCM City
+						<Col xs={8} className={styles.content} style={{ paddingLeft: 0 }}>
+							Hai Chau Dist, Da Nang City
 						</Col>
 					</Row>
 					<Row>
 						<Col xs={4} className={styles.title}>
 							Email:
 						</Col>
-						<Col xs={8} className={styles.content}>
+						<Col xs={8} className={styles.content} style={{ paddingLeft: 0 }}>
 							qlun@gmail.com
 						</Col>
 					</Row>

@@ -31,7 +31,7 @@ const AboutPage = () => {
 						title="our place"
 						className={styles.iframe}
 						src={
-							'https://www.google.com/maps/embed/v1/place?q=place_id:EkA1IMSQxrDhu51uZyBz4buRIDg1LCBUw6JuIFF1eSwgUXXhuq1uIDcsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFtIjASLgoUChIJWaBqqYQvdTERQlq1AjdTnLIQBSoUChIJN8BCWJsvdTERJloaLg0LRs8&key=' +
+							'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJoSKTMDgYQjERwKubD1kbKv4&key=' +
 							`${process.env.GATSBY_GOOGLE_API}`
 						}
 						allowFullScreen
